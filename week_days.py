@@ -13,7 +13,7 @@ def day_of_week():
     for i in range(len(days)):
         print(days[i])
 
-day_of_week()
+#day_of_week()
 
 def favorite_activities():
     # 2.1 TODO: Now, in a for loop, instead of just printing out the day,
@@ -40,7 +40,7 @@ def favorite_activities():
     for i in range(len(days)):
         print(f'On {days[i]}s, your favorite activity is to {things_to_do[i]}.')
 
-favorite_activities()
+#favorite_activities()
 
 # '''
 #     Take a look back at the code you just wrote. Look at how much it does!
@@ -58,7 +58,7 @@ favorite_activities()
 # '''
 
 
-def temp_by_day():
+#def temp_by_day():
     # 3 TODO: Write a program that loops through the days in the week. Each day, ask the user what the temperature
     # is. If the temperature is below 50, tell the user to 'Brr, put on a jacket!'. Or, if the temperature is
     # between 50 and 65, tell the user to 'Cozy, grab a sweater'. Finally, if the temperature is above 65,
@@ -71,7 +71,7 @@ def temp_by_day():
             print('Cozy, grab a sweater')
         else:
             print('Put on some sunscreen!')
-temp_by_day()
+#temp_by_day()
 
 def temp_by_day_continuous():
     # 4 TODO: Write a program that asks the user what temperature it is outside. While the temperature is below 65,
@@ -85,6 +85,6 @@ def temp_by_day_continuous():
     
     print('Spring has sprung!')
 
-temp_by_day_continuous()
+#temp_by_day_continuous()
     # NOTE: remember, if you accidentally create an infinite while loop, it's ok! Go into the command line and
     # hit control + C to stop the program. No harm done to your computer (:
