@@ -58,7 +58,7 @@ def favorite_activities():
 # '''
 
 
-#def temp_by_day():
+def temp_by_day():
     # 3 TODO: Write a program that loops through the days in the week. Each day, ask the user what the temperature
     # is. If the temperature is below 50, tell the user to 'Brr, put on a jacket!'. Or, if the temperature is
     # between 50 and 65, tell the user to 'Cozy, grab a sweater'. Finally, if the temperature is above 65,
